@@ -13,15 +13,15 @@ int main() {
 
     
     printf("Enter your height (in cm): ");
-    scanf("%f, 112");
+    scanf("%f",height );
 
     
     printf("Enter your phone number: ");
-    scanf("%s, 0790986567"); 
+    scanf("%s", phone number); 
 
     
     printf("Enter your weight (in kg): ");
-    scanf("%f, 58");
+    scanf("%f", weight);
 
     // Display the information
     printf("\n--- Your Details ---\n");
