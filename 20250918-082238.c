@@ -7,14 +7,27 @@ Description:hello c
 
 #include<stdio.h>//pre-proccessor 
 
-//main function 
-int main(){
-printf("hello c:\n");
-scanf("enter my height:\n");
-printf("118.6\n");
-scanf("enter my phone number:\n");
-printf("0790885756:\n");
-scanf("enter my weight:\n");
-printf("55.8:\n");
-return 0;
+int main() {
+    float height, weight;
+    char phone[20];  // store phone number as string (to allow leading zeros, +, etc.)
+
+    
+    printf("Enter your height (in cm): ");
+    scanf("%f, 112");
+
+    
+    printf("Enter your phone number: ");
+    scanf("%s, 0790986567"); 
+
+    
+    printf("Enter your weight (in kg): ");
+    scanf("%f, 58");
+
+    // Display the information
+    printf("\n--- Your Details ---\n");
+    printf("Height: %.2f cm\n", height);
+    printf("Phone Number: %s\n", phone);
+    printf("Weight: %.2f kg\n", weight);
+
+    return 0;
 }
